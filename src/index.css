@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'tailwindcss';
+
+@theme {
+    /* colors */
+    --color-white: #ffffff;
+    --color-soft-white: #f8f7f2;
+    --color-orange: #f0972a;
+    --color-lightgrey: #d8d8d8;
+    --color-mid-grey: #a5a5a5;
+    --color-darkgrey: #626262;
+    --color-green: #96bb36;
+
+    /* font */
+    --font-roboto: 'Roboto', sans-serif;
+    --font-roboto-slab: 'Roboto Slab', serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: var(--font-roboto);
+    background-color: var(--color-soft-white);
+    text-decoration: none;
+    list-style: none;
+}
